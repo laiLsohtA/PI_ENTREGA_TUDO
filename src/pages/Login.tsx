@@ -108,13 +108,13 @@ export default function Login() {
       <div className="bg-brand-black py-12">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="inline-flex items-center gap-2 bg-brand-yellow/20 border border-brand-yellow/30 rounded-full px-4 py-1.5 text-sm font-semibold text-brand-yellow mb-4">
-            <LockKeyhole size={14} /> RF07/RF08 - Autenticação
+            <LockKeyhole size={14} /> Autenticação
           </div>
           <h1 className="text-3xl font-black text-brand-yellow mb-2">
             {isRegister ? "Criar conta" : "Entrar no EntregaTudo"}
           </h1>
           <p className="text-gray-400 text-sm max-w-xl mx-auto">
-            Fluxo de autenticação integrado ao Supabase Auth para controle de acesso ao marketplace.
+            
           </p>
         </div>
       </div>
@@ -218,7 +218,7 @@ export default function Login() {
             </button>
 
             <p className="text-xs text-muted-foreground text-center leading-relaxed">
-              Esta tela registra a evolução dos requisitos RF07 e RF08, conectando o frontend ao serviço de autenticação do Supabase.
+              
             </p>
           </form>
         </div>

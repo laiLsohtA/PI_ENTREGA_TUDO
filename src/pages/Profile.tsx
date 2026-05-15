@@ -25,7 +25,7 @@ export default function Profile() {
             <ShieldCheck size={14} /> Sessão autenticada
           </div>
           <h1 className="text-3xl font-black text-brand-yellow mb-2">Minha conta</h1>
-          <p className="text-gray-400 text-sm">Área de validação do fluxo RF07/RF08 para a Fase 03.</p>
+          <p className="text-gray-400 text-sm"></p>
         </div>
       </div>
 
@@ -60,16 +60,6 @@ export default function Profile() {
                 <LogOut size={16} /> Sair
               </button>
             </div>
-          </div>
-
-          <div className="bg-card rounded-2xl shadow-lg p-6 h-fit">
-            <h3 className="font-black text-foreground mb-3">Status Fase 03</h3>
-            <ul className="space-y-3 text-sm text-muted-foreground">
-              <li>✅ RF07 - Cadastro de usuário em desenvolvimento funcional</li>
-              <li>✅ RF08 - Login/autenticação em desenvolvimento funcional</li>
-              <li>✅ Controle de sessão via Supabase Auth</li>
-              <li>✅ Logout operacional no frontend</li>
-            </ul>
           </div>
         </div>
       </div>
